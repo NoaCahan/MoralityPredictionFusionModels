@@ -1,12 +1,12 @@
 # PE Fusion 
 
-This repository contains the scripts and models used in the paper *"Multimodal Fusion Models for Pulmonary Embolism Mortality Prediction"* published on Scientific Reports.[manuscript link](https://www.nature.com/articles/s41598-023-34303-8)
+This repository contains the scripts and models used in the paper *"Multimodal Fusion Models for Pulmonary Embolism Mortality Prediction"* published on Scientific Reports. [manuscript link](https://www.nature.com/articles/s41598-023-34303-8)
 
 ## Table of Contents
 0. [Introduction](#introduction)
 0. [Results](#results)
 0. [Citation](#citation)
-0. [Data Availability](#Data Availability)
+0. [Data Availability](#data-availability)
 0. [Usage](#usage)
 
 ## Introduction 
@@ -45,31 +45,22 @@ To introduce model interpretability and facilitate subsequent clinical applicati
 ## Citation
 If you use any of our code, please cite:
 
-@Article{Cahan2023,
-author={Cahan, Noa
-and Klang, Eyal
-and Marom, Edith M.
-and Soffer, Shelly
-and Barash, Yiftach
-and Burshtein, Evyatar
-and Konen, Eli
-and Greenspan, Hayit},
-title={Multimodal fusion models for pulmonary embolism mortality prediction},
-journal={Scientific Reports},
-year={2023},
-month={May},
-day={09},
-volume={13},
-number={1},
-pages={7544},
-abstract={Pulmonary embolism (PE) is a common, life threatening cardiovascular emergency. Risk stratification is one of the core principles of acute PE management and determines the choice of diagnostic and therapeutic strategies. In routine clinical practice, clinicians rely on the patient's electronic health record (EHR) to provide a context for their medical imaging interpretation. Most deep learning models for radiology applications only consider pixel-value information without the clinical context. Only a few integrate both clinical and imaging data. In this work, we develop and compare multimodal fusion models that can utilize multimodal data by combining both volumetric pixel data and clinical patient data for automatic risk stratification of PE. Our best performing model is an intermediate fusion model that incorporates both bilinear attention and TabNet, and can be trained in an end-to-end manner. The results show that multimodality boosts performance by up to 14{\%} with an area under the curve (AUC) of 0.96 for assessing PE severity, with a sensitivity of 90{\%} and specificity of 94{\%}, thus pointing to the value of using multimodal data to automatically assess PE severity.},
-issn={2045-2322},
-doi={10.1038/s41598-023-34303-8},
-url={https://doi.org/10.1038/s41598-023-34303-8}
-}
+	@article{Cahan2023,
+            title={Multimodal fusion models for pulmonary embolism mortality prediction},
+            author={Cahan, Noa and Klang, Eyal and Marom, Edith M. and Soffer, Shelly and Barash, Yiftach and Burshtein, Evyatar and Konen, Eli and Greenspan, Hayit},
+            journal={Scientific Reports},
+            year={2023},
+            month={May},
+            day={09},
+            volume={13},
+            number={1},
+            pages={7544},
+            issn={2045-2322},
+            doi={10.1038/s41598-023-34303-8},
+            url={https://doi.org/10.1038/s41598-023-34303-8}
+            }
 
-
-## Data Availability 
+## Data Availability
 
 The datasets generated and analyzed during this study are not currently publicly available due to patient privacy regulations.
 
