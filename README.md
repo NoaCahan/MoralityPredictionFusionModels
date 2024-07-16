@@ -1,6 +1,6 @@
 # Multimodal Fusion Models for PE Mortality Prediction
 
-This repository contains the scripts and models used in the paper *"Multimodal Fusion Models for Pulmonary Embolism Mortality Prediction"* published on Scientific Reports. [manuscript link](https://arxiv.org/abs/2406.16109)
+This repository contains the scripts and models used in the paper *"Multimodal Fusion Models for Pulmonary Embolism Mortality Prediction"* published on Scientific Reports. [manuscript link](https://www.nature.com/articles/s41598-023-34303-8)
 
 ## Table of Contents
 0. [Introduction](#introduction)
